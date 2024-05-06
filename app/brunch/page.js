@@ -45,9 +45,9 @@ const Brunch = () => {
             <div>Bon à savoir </div>
           </h2>
           <div class="flex-col  mt-7 mx-10 lg:mx-60">
-            <div class=" my-4">Fin du brunch à 16h</div>
+            <div class=" my-4">Fin du brunch à 16h.</div>
             <div class=" my-4">
-              La finale de Roland-Garros ne sera pas retransmise sur place
+              La finale de Roland-Garros ne sera pas retransmise sur place.
             </div>
             <div class=" my-4">
               Pensez dès à présent à vos procurations, car dimanche 9 juin ce
