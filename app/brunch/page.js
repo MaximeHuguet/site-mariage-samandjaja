@@ -10,7 +10,7 @@ const Brunch = () => {
       <Header />
       <div class="my-10 pb-4 mx-auto flex-col justify-center items-center bg-white  md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl rounded-3xl ">
         <div class="py-4 flex-col justify-center items-center text-center">
-          <h1>Invitation au Brunch</h1>
+          <h1>Brunch</h1>
           <div class="text-xl uppercase italic">9 juin 2024</div>
         </div>
         <div class="flex flex-wrap justify-evenly items-center m-7">

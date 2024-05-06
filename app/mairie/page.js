@@ -30,11 +30,18 @@ const Mairie = () => {
           </div>
           <div class="flex-col ">
             <p class="max-w-lg sm:text-xl mt-7">
-              Pour ceux qui le souhaitent, nous vous donnons rendez-vous à la
-              mairie de Clamart.
+              Pour ceux qui le souhaitent, nous vous donnons rendez-vous dès 11h
+              à la mairie de Clamart.
             </p>
-            <p class="max-w-lg sm:text-xl mt-7 ">
+            <p class="max-w-lg sm:text-xl mt-7">
               La cérémonie civile débutera à 11h30.
+            </p>
+            <p class="max-w-lg sm:text-xl mt-7">
+              Restez avec nous à la sortie de la mairie pour quelques photos de
+              groupe !
+            </p>
+            <p class="max-w-lg sm:text-xl mt-7">
+              Ensuite, c'est quartier libre jusqu'à 16h!
             </p>
           </div>
         </div>
@@ -69,7 +76,7 @@ const Mairie = () => {
           </div>
         </div>
         <div class="mb-10 flex-col justify-center items-center">
-        <h2 class="flex mx-auto justify-center items-center mb-5">
+          <h2 class="flex mx-auto justify-center items-center mb-5">
             <FontAwesomeIcon
               icon={faSquareParking}
               size="xl"
@@ -120,31 +127,6 @@ const Mairie = () => {
                   </a>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="mb-10 flex-col justify-center items-center">
-        <h2 class="flex mx-auto justify-center items-center mb-5">
-            <FontAwesomeIcon
-              icon={faTriangleExclamation}
-              size="xl"
-              style={{ marginRight: "0.5rem", color: "#6395B7" }}
-            />
-            <div>Informations supplémentaires </div>
-          </h2>
-          <div class="flex justify-evenly items-center mx-8 lg:mx-60">
-            {/* Image affichée uniquement sur les écrans d'ordinateur */}
-            <img
-              src="/images/shooting.jpg"
-              alt="photo-shooting"
-              class="hidden md:block w-auto h-32 mr-4 rounded-lg"
-            />
-            <div>
-              <p>
-                Restez avec nous à la sortie de la mairie pour quelques photos
-                de groupe !
-              </p>
-              <p class="mt-5">Ensuite, c'est quartier libre jusqu'à 16h!</p>
             </div>
           </div>
         </div>

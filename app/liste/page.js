@@ -34,7 +34,7 @@ const Liste = () => {
             <p class="sm:text-xl">
               5% de vos participations seront reversés à une association qui
               nous tient particulièrement à cœur : l'association "Ruban Rose"
-              qui soutient la recherche pour le cancer du sein et qui réalise
+              qui soutient la recherche sur le cancer du sein et qui réalise
               des actions de sensibilisation.
             </p>
           </div>
