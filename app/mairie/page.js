@@ -13,12 +13,12 @@ import {
 
 const Mairie = () => {
   return (
-    <main class="mx-4 w-screen min-h-lvh h-full flex-col items-center justify-center bg-white/95">
+    <main class="mx-4 w-screen min-h-lvh h-full flex-col items-center justify-center ">
       <Header />
-      <div class="m-2 flex-col justify-center items-center">
-        <div class="py-4 flex-col justify-center items-center text-center">
+      <div class="my-10 pb-4 mx-auto flex-col justify-center items-center bg-white  md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl rounded-3xl ">
+        <div class="py-4 flex-col justify-center items-center text-center ">
           <h1>Rendez-vous à la mairie</h1>
-          <div class="text-xl uppercase">8 juin 2024</div>
+          <div class="text-xl uppercase italic">8 juin 2024</div>
         </div>
         <div class="flex flex-wrap justify-evenly items-center m-7">
           <div class="max-w-lg">
@@ -39,7 +39,7 @@ const Mairie = () => {
           </div>
         </div>
         <div class="mb-10 flex-col justify-center items-center">
-          <h2 class="flex mx-7 lg:justify-center items-center mb-5">
+          <h2 class="flex mx-auto justify-center items-center mb-5">
             <FontAwesomeIcon
               icon={faDiamondTurnRight}
               size="xl"
@@ -69,7 +69,7 @@ const Mairie = () => {
           </div>
         </div>
         <div class="mb-10 flex-col justify-center items-center">
-          <h2 class="flex mx-7 lg:justify-center items-center mb-5">
+        <h2 class="flex mx-auto justify-center items-center mb-5">
             <FontAwesomeIcon
               icon={faSquareParking}
               size="xl"
@@ -124,7 +124,7 @@ const Mairie = () => {
           </div>
         </div>
         <div class="mb-10 flex-col justify-center items-center">
-          <h2 class="flex mx-7 lg:justify-center items-center mb-5">
+        <h2 class="flex mx-auto justify-center items-center mb-5">
             <FontAwesomeIcon
               icon={faTriangleExclamation}
               size="xl"

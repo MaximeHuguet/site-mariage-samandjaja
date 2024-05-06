@@ -19,10 +19,10 @@ const Header = () => {
   };
 
   return (
-    <header className="w-full px-8 py-4 bg-white">
+    <header className="w-full px-8 py-4 bg-[#FFFBFA]">
       <div className="flex items-center justify-between">
       <Link className="font-bold text-3xl" href="/">
-          <img src="images/logo-3.png" alt="Sam et Jaja" class="w-48 min-w-36" />
+          <img src="images/logo-site.png" alt="Sam et Jaja" class="w-40 min-w-36" />
         </Link>
         <div className="hidden lg:flex capitalize text-lg">
         <Link

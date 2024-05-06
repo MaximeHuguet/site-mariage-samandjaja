@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Header from "./header/page";
 
+
 export default function Home() {
   return (
     <main class="w-screen  min-h-lvh  flex-col items-center justify-center ">

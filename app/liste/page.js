@@ -2,13 +2,13 @@ import React from "react";
 import Header from "../header/page";
 import Footer from "../footer/page";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLinkAlt, faHeart} from "@fortawesome/free-solid-svg-icons";
+import { faExternalLinkAlt, faHeart } from "@fortawesome/free-solid-svg-icons";
 
 const Liste = () => {
   return (
-    <main class="mx-4 w-screen min-h-lvh h-full flex-col items-center justify-center bg-white/95">
+    <main class="mx-4 w-screen min-h-lvh h-full flex-col items-center justify-center ">
       <Header />
-      <div class="m-2 flex-col justify-center items-center">
+      <div class="my-10 pb-4 mx-auto flex-col justify-center items-center bg-white  md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl rounded-3xl ">
         <div class="py-4 flex-col justify-center items-center text-center">
           <h1>Liste de mariage</h1>
         </div>
@@ -52,9 +52,11 @@ const Liste = () => {
             Pour ceux qui sont moins à l'aise avec les sites en ligne, une urne
             sera installée dans la salle de réception le jour du mariage.
           </p>
-          <p class="sm:text-xl mt-10">Un grand merci</p>
-          <FontAwesomeIcon icon={faHeart} size="lg" />
-          <p class="sm:text-xl">Louise, Joseph, Samantha & François</p>
+          <div class="sm:text-xl mt-10  text-center">
+            <div class="sm:text-xl ">Un grand merci</div>
+            <FontAwesomeIcon icon={faHeart} size="lg" />
+            <div class="sm:text-xl">Louise, Joseph, Samantha & François</div>
+          </div>
         </div>
       </div>
       <Footer />
