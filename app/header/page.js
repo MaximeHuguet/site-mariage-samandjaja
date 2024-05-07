@@ -8,7 +8,8 @@ import {
   faEnvelope,
   faCalendarDays,
   faBars,
-  faLandmarkFlag
+  faLandmarkFlag,
+  faPeopleGroup
 } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
@@ -24,53 +25,61 @@ const Header = () => {
       <Link className="font-bold text-3xl" href="/">
           <img src="images/logo-site.png" alt="Sam et Jaja" class="w-40 min-w-36" />
         </Link>
-        <div className="hidden lg:flex capitalize text-lg">
+        <div className="hidden lg:flex xl:text-base lg:text-sm items-center ">
         <Link
-            className="p-5 m-2 flex items-center"
+            className="m-2 flex items-center"
             href="/mairie"
           >
             <FontAwesomeIcon
               icon={faLandmarkFlag}
               width="30"
-              style={{ marginRight: "0.5rem", color:"#6395B7" }}
+              style={{ marginRight: "0.1rem", color:"#6395B7" }}
             />
             <span>Mairie</span>
           </Link>
           <Link
-            className="p-5 m-2 flex items-center"
+            className="m-2 flex items-center"
             href="/programme"
           >
             <FontAwesomeIcon
               icon={faCalendarDays}
               width="30"
-              style={{ marginRight: "0.5rem", color:"#6395B7" }}
+              style={{ marginRight: "0.1rem", color:"#6395B7" }}
             />
             <span>Au château</span>
           </Link>
-          <Link className="p-5 m-2 flex items-center" href="/brunch">
+          <Link className="m-2 flex items-center" href="/brunch">
             <FontAwesomeIcon
               icon={faMugHot}
               width="30"
-              style={{ marginRight: "0.5rem", color:"#6395B7" }}
+              style={{ marginRight: "0.1rem", color:"#6395B7" }}
             />
             <span>Brunch</span>
           </Link>
 
-          <Link className="p-5 m-2 flex items-center" href="/liste">
+          <Link className="m-2 flex items-center" href="/liste">
             <FontAwesomeIcon
               icon={faGift}
               width="30"
-              style={{ marginRight: "0.5rem", color:"#6395B7" }}
+              style={{ marginRight: "0.1rem", color:"#6395B7" }}
             />
             <span>Liste de Mariage</span>
           </Link>
-          <a className="p-5 m-2 flex items-center" href="mailto:samjaja75014@gmail.com">
+          <Link className="m-2 flex items-center" href="/nos-temoins">
+            <FontAwesomeIcon
+              icon={faPeopleGroup}
+              width="30"
+              style={{ marginRight: "0.1rem", color:"#6395B7" }}
+            />
+            <span>Nos Témoins</span>
+          </Link>
+          <a className="m-2 flex items-center" href="mailto:samjaja75014@gmail.com">
             <FontAwesomeIcon
               icon={faEnvelope}
               width="30"
-              style={{ marginRight: "0.5rem", color:"#6395B7" }}
+              style={{ marginRight: "0.1rem", color:"#6395B7" }}
             />
-            <span>Contact</span>
+            <span>Contactez-nous</span>
           </a>
         </div>
         <div className="lg:hidden flex">
@@ -98,6 +107,9 @@ const Header = () => {
             </Link>
             <Link className="p-5 m-2" href="/liste">
               Liste de mariage
+            </Link>
+            <Link className="p-5 m-2" href="/nos-temoins">
+              Nos Témoins
             </Link>
             <a  className="p-5 m-2" href="mailto:samjaja75014@gmail.com">
               Contactez-nous

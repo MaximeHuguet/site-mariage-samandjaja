@@ -8,9 +8,14 @@ const Liste = () => {
   return (
     <main class="mx-4 w-screen min-h-lvh h-full flex-col items-center justify-center ">
       <Header />
-      <div class="my-10 pb-4 mx-auto flex-col justify-center items-center bg-white  md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl rounded-3xl ">
+      <div class="my-10 pb-4 mx-auto flex-col justify-center items-center bg-white min-h-screen md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl rounded-3xl ">
         <div class="py-4 flex-col justify-center items-center text-center">
           <h1>Liste de mariage</h1>
+          <img
+            class="rounded-md m-auto max-w-10"
+            alt="cadeau de mariage"
+            src="/images/gift.png"
+          ></img>
         </div>
         <div class="flex-col justify-center items-center m-6 lg:mx-32">
           <div class="flex-col justify-center items-center">
@@ -34,8 +39,8 @@ const Liste = () => {
             <p class="sm:text-xl">
               5% de vos participations seront reversés à une association qui
               nous tient particulièrement à cœur : l'association "Ruban Rose"
-              qui soutient la recherche sur le cancer du sein et qui réalise
-              des actions de sensibilisation.
+              qui soutient la recherche sur le cancer du sein et qui réalise des
+              actions de sensibilisation.
             </p>
           </div>
           <div class="flex justify-center">
