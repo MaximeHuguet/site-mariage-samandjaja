@@ -14,8 +14,8 @@ import {
 const Mairie = () => {
   return (
     <main class="mx-4 w-screen min-h-lvh h-full flex-col items-center justify-center ">
-      <Header />
-      <div class="my-10 pb-4 mx-auto flex-col justify-center items-center bg-white min-h-screen md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl rounded-3xl ">
+      <Header/>
+      <div class="my-6 pb-4 mx-auto flex-col justify-center items-center bg-white min-h-screen md:max-w-screen-sm lg:max-w-screen-md xl:max-w-screen-lg 2xl:max-w-screen-xl rounded-3xl ">
         <div class="py-4 flex-col justify-center items-center text-center ">
           <h1>Rendez-vous à la mairie</h1>
           <div class="text-xl uppercase italic">8 juin 2024</div>
