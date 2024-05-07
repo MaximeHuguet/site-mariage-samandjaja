@@ -14,7 +14,7 @@ const Brunch = () => {
           <div class="text-xl uppercase italic">9 juin 2024</div>
         </div>
         <div class="flex flex-wrap justify-evenly items-center m-7">
-          <div class="max-w-lg">
+          <div class="max-w-lg shadow-md">
             <img
               class="rounded-md"
               alt="brunch"

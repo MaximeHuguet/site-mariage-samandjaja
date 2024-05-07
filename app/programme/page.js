@@ -18,9 +18,9 @@ const Programme = () => {
           <div class="text-xl uppercase italic"> 8 et 9 juin 2024</div>
         </div>
         <div class="flex flex-wrap justify-evenly items-center m-7">
-          <div class="max-w-lg">
+          <div class="max-w-lg shadow-md">
             <img
-              class="rounded-md"
+              class="rounded-md "
               alt="château Bourguignon"
               src="/images/chateau.png"
             ></img>
